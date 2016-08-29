@@ -6,7 +6,6 @@ class App < Sinatra::Base
     erb :newteam
   end
 
-
   get "/team" do
     erb :team
   end
@@ -15,6 +14,5 @@ class App < Sinatra::Base
     puts params
     erb :team
   end
-
 
 end
